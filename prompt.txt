@@ -1,0 +1,53 @@
+"""
+Prompt:
+Can you extract all the idioms taught in this book, their meaning, and one example sentence? let's do this for chapters 21 to 25. See below for example format you should follow.
+
+**Chapter 20: Money**
+*   **treat someone like dirt**: If a person treats someone like dirt, they treat them very badly.
+    *   They left because the manager treated them like dirt.
+*   **your own flesh and blood**: If someone is your own flesh and blood, they are a member of your family.
+    *   We care about you because you are our own flesh and blood.
+"""
+"""
+Help me write a python script that could process the raw text into this formatted text (the text in example doesn't match because its just an illustration)
+
+Raw text:
+
+**Chapter 1: Knowledge and understanding**
+
+*   **get the hang of something**: If you get the hang of an activity, you learn how to do it well.
+    *   After a few months you will start getting the hang of the language and expressing yourself quite well.
+*   **get the picture**: If you get the picture, you understand what is happening in a situation.
+    *   Anna was giggling. She was beginning to get the picture.
+*   **get the wrong end of the stick or get hold of the wrong end of the stick**: If someone gets the wrong end of the stick or gets hold of the wrong end of the stick, they completely misunderstand a situation or something that is said.
+    *   Did I get hold of the wrong end of the stick? Was that not what he meant?
+
+**Chapter 2: Memory and mind**
+
+*   **bear something in mind or keep something in mind**: If you tell someone to bear something in mind or keep something in mind, you are reminding or warning them about something important which they should remember.
+    *   Bear in mind that parking is difficult here.
+*   **cross your mind**: If something crosses your mind, you think of it.
+    *   It crossed my mind that he might be lying.
+
+Formatted JSON:
+[
+            {
+                idiom: "go back a long way",
+                source: "chapter 1",
+                definition: "If two people go back a long way, they have known each other for a long time.",
+                example: "Oh yes, we go back a long way - we went to nursery school together."
+            },
+            {
+                idiom: "hit it off",
+                source: "chapter 1",
+                definition: "If you hit it off with someone, you like them immediately and become friendly with them.",
+                example: "We didn't really hit it off- we just aren't interested in the same things."
+            },
+            {
+                idiom: "leave someone in the lurch",
+                source: "chapter 2",
+                definition: "If you leave someone in the lurch, you do not help them when they need your help.",
+                example: "They took his keys and his coat and left him in the lurch."
+            }
+]
+"""

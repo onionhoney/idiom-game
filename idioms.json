@@ -1,0 +1,1861 @@
+{ "idioms": [
+    {
+        "idiom": "get the hang of something",
+        "source": "chapter 1",
+        "definition": "If you get the hang of an activity, you learn how to do it well.",
+        "example": "After a few months you will start getting the hang of the language and expressing yourself quite well."
+    },
+    {
+        "idiom": "get the picture",
+        "source": "chapter 1",
+        "definition": "If you get the picture, you understand what is happening in a situation.",
+        "example": "Anna was giggling. She was beginning to get the picture."
+    },
+    {
+        "idiom": "get the wrong end of the stick or get hold of the wrong end of the stick",
+        "source": "chapter 1",
+        "definition": "If someone gets the wrong end of the stick or gets hold of the wrong end of the stick, they completely misunderstand a situation or something that is said.",
+        "example": "Did I get hold of the wrong end of the stick? Was that not what he meant?"
+    },
+    {
+        "idiom": "get your head around something or get your head round something",
+        "source": "chapter 1",
+        "definition": "If you get your head around a fact or an idea, you succeed in understanding it or accepting it.",
+        "example": "Xavier can't get his head around all the new rules in the office."
+    },
+    {
+        "idiom": "put two and two together",
+        "source": "chapter 1",
+        "definition": "If you put two and two together, you realize what is happening or what something means based on what you have seen or heard.",
+        "example": "Mr Lane's solicitor said that the police had put two and two together and made five."
+    },
+    {
+        "idiom": "read between the lines",
+        "source": "chapter 1",
+        "definition": "If you read between the lines, you understand what someone really means, or what is really happening in a situation, even though it is not stated openly.",
+        "example": "He didn't go into details, but reading between the lines it appears that he was forced to leave."
+    },
+    {
+        "idiom": "take something on board",
+        "source": "chapter 1",
+        "definition": "If you take an idea, suggestion, or fact on board, you understand it or accept it.",
+        "example": "I listened to them, took their comments on board, and then made the decision."
+    },
+    {
+        "idiom": "up to speed",
+        "source": "chapter 1",
+        "definition": "If you are up to speed, you have all the latest information about something.",
+        "example": "We try to keep people entertained and up to speed with what's going on in town."
+    },
+    {
+        "idiom": "not have a clue",
+        "source": "chapter 1",
+        "definition": "If you do not have a clue about something, you have no idea about it or do not know the answer to it.",
+        "example": "Veejay feels he hasn't a clue how to find a better employer."
+    },
+    {
+        "idiom": "a grey area",
+        "source": "chapter 1",
+        "definition": "If something is a grey area, it is not clear or definite.",
+        "example": "The difference between telling a lie and not telling the whole truth is a grey area."
+    },
+    {
+        "idiom": "go in one ear and out the other",
+        "source": "chapter 1",
+        "definition": "If something goes in one ear and out the other, you pay no attention to it or quickly forget it.",
+        "example": "Brad tried to remember the directions but they seemed to have gone in one ear and out the other."
+    },
+    {
+        "idiom": "bear something in mind or keep something in mind",
+        "source": "chapter 2",
+        "definition": "If you tell someone to bear something in mind or keep something in mind, you are reminding or warning them about something important which they should remember.",
+        "example": "Bear in mind that parking is difficult here."
+    },
+    {
+        "idiom": "cross your mind",
+        "source": "chapter 2",
+        "definition": "If something crosses your mind, you think of it.",
+        "example": "It crossed my mind that he might be lying."
+    },
+    {
+        "idiom": "food for thought",
+        "source": "chapter 2",
+        "definition": "If something gives you food for thought, it makes you think seriously about something.",
+        "example": "The previous chapters will already have given you plenty of food for thought."
+    },
+    {
+        "idiom": "have a gut reaction to something",
+        "source": "chapter 2",
+        "definition": "If you have a gut reaction to something, you have a strong feeling about it that is not based on reason.",
+        "example": "Personally, I trust my gut action to tell me when I'm right."
+    },
+    {
+        "idiom": "have a mind like a sieve",
+        "source": "chapter 2",
+        "definition": "If you say that someone has a mind like a sieve, you mean that they forget things very easily.",
+        "example": "Do you have the memory of an elephant or a mind like a sieve?"
+    },
+    {
+        "idiom": "have the memory of an elephant",
+        "source": "chapter 2",
+        "definition": "If you say that someone has the memory of an elephant, you mean that they never forget anything.",
+        "example": "Do you have the memory of an elephant or a mind like a sieve?"
+    },
+    {
+        "idiom": "miles away",
+        "source": "chapter 2",
+        "definition": "If you are miles away, you are not paying attention to what is happening around you because you are thinking about something else.",
+        "example": "'Did you ask me a question? I'm sorry, I was miles away'."
+    },
+    {
+        "idiom": "off your head or out of your mind",
+        "source": "chapter 2",
+        "definition": "If you say that someone is off their head or out of their mind, you mean that they are behaving very strangely or foolishly.",
+        "example": "You are mad. Totally, completely and utterly off your head."
+    },
+    {
+        "idiom": "off the top of your head",
+        "source": "chapter 2",
+        "type": "adv",
+        "definition": "If you say something off the top of your head, you say it without thinking about it much beforehand.",
+        "example": "Off the top of your head, what do you know about Vitamin C?"
+    },
+    {
+        "idiom": "on the tip of your tongue",
+        "source": "chapter 2",
+        "type": "adv",
+        "definition": "If something is on the tip of your tongue, you know it and are about to say it, but you cannot remember it.",
+        "example": "I'm just trying to remember his name; it's on the tip of my tongue."
+    },
+    {
+        "idiom": "rack your brains",
+        "source": "chapter 2",
+        "definition": "If you rack your brains, you try very hard to remember something or think of a solution.",
+        "example": "Rack your brains and tell me everything you now about him."
+    },
+    {
+        "idiom": "ring a bell",
+        "source": "chapter 2",
+        "definition": "If something rings a bell, it is slightly familiar to you and you know you have heard it before, but you do not remember it fully.",
+        "example": "'Do you know anyone called Frascati?'-'Well the name rings a bell'."
+    },
+    {
+        "idiom": "at cross purposes",
+        "source": "chapter 3",
+        "type": "adv",
+        "definition": "If two people are at cross purposes, they think they are talking about or trying to do the same thing as each other, but they are actually talking about or trying to do different things.",
+        "example": "They had been talking at cross purposes earlier, he realized."
+    },
+    {
+        "idiom": "come out of your shell",
+        "source": "chapter 3",
+        "definition": "If you come out of your shell, you become less shy and more confident.",
+        "example": "She used to be very timid and shy but I think she's come out of her shell."
+    },
+    {
+        "idiom": "find common ground",
+        "source": "chapter 3",
+        "definition": "If two people or groups who generally disagree find common ground, they find a particular subject or opinion that they agree about.",
+        "example": "Both leaders were keen to stress that they were seeking to find common ground."
+    },
+    {
+        "idiom": "from the horse's mouth",
+        "source": "chapter 3",
+        "type": "adv",
+        "definition": "If you get a piece of information from the horse's mouth, you get it directly from someone who is involved in it and knows the most about it.",
+        "example": "When he tells them, straight from the horse's mouth, what a good assistant you are, they'll increase your wages."
+    },
+    {
+        "idiom": "get your wires crossed or get your lines crossed",
+        "source": "chapter 3",
+        "definition": "If you get your wires crossed or get your lines crossed, you are mistaken about what someone else means.",
+        "example": "I think we've got our wires crossed. I asked for a large pizza, not two small ones."
+    },
+    {
+        "idiom": "go off at a tangent or go off on a tangent",
+        "source": "chapter 3",
+        "definition": "If someone goes off at a tangent or goes off on a tangent, they suddenly start talking or thinking about a subject that is only slightly related to the main topic.",
+        "example": "Our teacher would occasionally go off on a tangent and start talking about something totally unrelated to the textbook."
+    },
+    {
+        "idiom": "hear something through the grapevine or hear something on the grapevine",
+        "source": "chapter 3",
+        "definition": "If you hear something through the grapevine or hear something on the grapevine, you are told a piece of news informally by someone who was told it by someone else.",
+        "example": "I heard through the grapevine that he was getting married."
+    },
+    {
+        "idiom": "in black and white",
+        "source": "chapter 3",
+        "type": "adv",
+        "definition": "If something is in black and white, it has been written or printed.",
+        "example": "It must be true because it's here in black and white."
+    },
+    {
+        "idiom": "keep someone in the loop",
+        "source": "chapter 3",
+        "definition": "If you keep someone in the loop, you make sure that they know what is happening and are kept up to date with all the information.",
+        "example": "Keep me in the loop, will you?"
+    },
+    {
+        "idiom": "keep someone posted",
+        "source": "chapter 3",
+        "definition": "If you keep someone posted, you regularly give them the latest news and information about something.",
+        "example": "I haven't heard any news yet, but I'll keep you posted."
+    },
+    {
+        "idiom": "let the cat out of the bag",
+        "source": "chapter 3",
+        "definition": "If you let the cat out of the bag, you accidentally reveal a secret.",
+        "example": "She promised me she wouldn't let the cat out of the bag."
+    },
+    {
+        "idiom": "put someone in the picture",
+        "source": "chapter 3",
+        "definition": "If you put someone in the picture, you give them all the information they need to understand a situation.",
+        "example": "Let me put you in the picture."
+    },
+    {
+        "idiom": "spill the beans",
+        "source": "chapter 3",
+        "definition": "If you spill the beans, you tell someone a secret.",
+        "example": "He was scared to death I was going to spill the beans to the cops."
+    },
+    {
+        "idiom": "touch base",
+        "source": "chapter 3",
+        "definition": "If you touch base with someone, you contact them, often when you have not spoken to them or seen them for a long time.",
+        "example": "A brief phone-call is often made to touch base and update the parent on any developments."
+    },
+    {
+        "idiom": "the bottom line",
+        "source": "chapter 4",
+        "definition": "In a discussion or argument, the bottom line is the most important and basic fact about what you are discussing.",
+        "example": "The bottom line is simply that business is about money."
+    },
+    {
+        "idiom": "by ear or play it by ear",
+        "source": "chapter 4",
+        "definition": "If you play it by ear, you decide what to do as a situation develops rather than planning it in advance.",
+        "example": "We're just going to play it by ear."
+    },
+    {
+        "idiom": "cross that bridge when you come to it",
+        "source": "chapter 4",
+        "definition": "If you say you will cross that bridge when you come to it, you mean you will not worry about a possible problem until it actually happens.",
+        "example": "We'll cross that bridge when we come to it."
+    },
+    {
+        "idiom": "cut to the chase",
+        "source": "chapter 4",
+        "definition": "If you cut to the chase, you start talking about or dealing with what is really important, instead of less important things.",
+        "example": "Let's skip the introductions and cut straight to the chase."
+    },
+    {
+        "idiom": "have something on the back burner or put something on the back burner",
+        "source": "chapter 4",
+        "definition": "If you put something on the back burner, you decide not to do something immediately but to leave it until a later time.",
+        "example": "Let's put that decision on the back burner for now."
+    },
+    {
+        "idiom": "be in two minds about something",
+        "source": "chapter 4",
+        "definition": "If you are in two minds about something, you are unable to decide what to do because you have both positive and negative feelings about it.",
+        "example": "I'm in two minds about spending all that money at once."
+    },
+    {
+        "idiom": "make a mountain out of a molehill",
+        "source": "chapter 4",
+        "definition": "If someone makes a mountain out of a molehill, they exaggerate the importance of something unimportant.",
+        "example": "We're going to play it by ear but let's not make a mountain out of a molehill."
+    },
+    {
+        "idiom": "the tip of the iceberg",
+        "source": "chapter 4",
+        "definition": "If you say that something is the tip of the iceberg, you mean that it is only a small part of a much bigger problem.",
+        "example": "This is just the tip of the iceberg."
+    },
+    {
+        "idiom": "sit on the fence",
+        "source": "chapter 4",
+        "definition": "If you sit on the fence, you avoid making a decision or taking a definite position.",
+        "example": "You will have to stop sitting on the fence and show where your loyalty lies."
+    },
+    {
+        "idiom": "split hairs",
+        "source": "chapter 4",
+        "definition": "If you split hairs, you argue about very small and unimportant details.",
+        "example": "The answer should have a capital letter but I won't split hairs."
+    },
+    {
+        "idiom": "stick to your guns",
+        "source": "chapter 4",
+        "definition": "If you stick to your guns, you continue to have your own opinion about something even when other people are trying to persuade you to change it.",
+        "example": "He stuck to his guns in spite of their grumbling."
+    },
+    {
+        "idiom": "take a back seat",
+        "source": "chapter 4",
+        "definition": "If you take a back seat, you allow someone else to be in control or to take the lead.",
+        "example": "I'm fed up with being the boss so I'm going to take a back seat and let other people do the hard work for a while."
+    },
+    {
+        "idiom": "the icing on the cake",
+        "source": "chapter 4",
+        "definition": "If something is the icing on the cake, it is an extra good thing that happens after something else good has already happened.",
+        "example": "I was so pleased just to have passed the exam; coming first was the icing on the cake."
+    },
+    {
+        "idiom": "up in the air",
+        "source": "chapter 4",
+        "definition": "If a plan or decision is up in the air, it is uncertain and may change.",
+        "example": "She was in two minds about whether or not to turn back. Her plans were still up in the air."
+    },
+    {
+        "idiom": "break the ice",
+        "source": "chapter 5",
+        "definition": "If you break the ice, you say or do something to make people feel more relaxed and comfortable in a social situation.",
+        "example": "Everyone around the table remained silent and I tried to think of a way of breaking the ice."
+    },
+    {
+        "idiom": "get off on the wrong foot",
+        "source": "chapter 5",
+        "definition": "If you get off on the wrong foot with someone, you have a bad start to your relationship.",
+        "example": "I'm afraid we got off on the wrong foot because I got her name wrong."
+    },
+    {
+        "idiom": "get on like a house on fire",
+        "source": "chapter 5",
+        "definition": "If two people get on like a house on fire, they become good friends very quickly and have a lot of things in common.",
+        "example": "It's strange that her two ex-husbands get on like a house on fire!"
+    },
+    {
+        "idiom": "get on someone's nerves",
+        "source": "chapter 5",
+        "definition": "If someone or something gets on your nerves, they irritate you.",
+        "example": "She talks all the time and it gets on my nerves."
+    },
+    {
+        "idiom": "give someone the cold shoulder",
+        "source": "chapter 5",
+        "definition": "If someone gives you the cold shoulder, they deliberately stop being friendly to you and ignore you.",
+        "example": "He was rude to her so she's decided that in future she'll give him the cold shoulder."
+    },
+    {
+        "idiom": "go back a long way",
+        "source": "chapter 5",
+        "definition": "If two people go back a long way, they have known each other for a long time.",
+        "example": "Oh yes, we go back a long way - we went to nursery school together."
+    },
+    {
+        "idiom": "hit it off",
+        "source": "chapter 5",
+        "definition": "If you hit it off with someone, you like them immediately and become friendly with them.",
+        "example": "We didn't really hit it off- we just aren't interested in the same things."
+    },
+    {
+        "idiom": "leave someone in the lurch",
+        "source": "chapter 5",
+        "definition": "If you leave someone in the lurch, you do not help them when they need your help.",
+        "example": "They took his keys and his coat and left him in the lurch."
+    },
+    {
+        "idiom": "on the same wavelength",
+        "source": "chapter 5",
+        "type": "adv",
+        "definition": "If two people are on the same wavelength, they understand each other well and tend to agree.",
+        "example": "They are definitely on the same wavelength - both passionate about green politics."
+    },
+    {
+        "idiom": "save face",
+        "source": "chapter 5",
+        "definition": "If you save face, you do or say something to avoid being embarrassed or losing people's respect.",
+        "example": "Most children have a need to save face in front of their friends."
+    },
+    {
+        "idiom": "sparks fly",
+        "source": "chapter 5",
+        "type": "noun",
+        "definition": "If sparks fly between two people, they get angry with each other and argue.",
+        "example": "Whenever his mother was in the room, I was aware of sparks flying."
+    },
+    {
+        "idiom": "treat someone like dirt",
+        "source": "chapter 5",
+        "definition": "If a person treats someone like dirt, they treat them very badly.",
+        "example": "They left because the manager treated them like dirt."
+    },
+    {
+        "idiom": "your own flesh and blood",
+        "source": "chapter 5",
+        "definition": "If someone is your own flesh and blood, they are a member of your family.",
+        "example": "We care about you because you are our own flesh and blood."
+    },
+    {
+        "idiom": "lend someone a hand",
+        "source": "chapter 6",
+        "definition": "If you lend someone a hand, you help them.",
+        "example": "Could you lend me a hand with these books, please?"
+    },
+    {
+        "idiom": "look the other way",
+        "source": "chapter 6",
+        "definition": "If someone looks the other way, they deliberately ignore something bad that is happening when they should be trying to deal with it or stop it.",
+        "example": "The government is fully aware of the problem but they just look the other way."
+    },
+    {
+        "idiom": "pat someone on the back",
+        "source": "chapter 6",
+        "definition": "If you pat someone on the back, you praise them for doing something well.",
+        "example": "Today is a good day to pat yourself on the back for bravery and effort."
+    },
+    {
+        "idiom": "put your heads together",
+        "source": "chapter 6",
+        "definition": "If people put their heads together, they try to solve a problem together.",
+        "example": "If there's a problem, we all just sit down, put our heads together and figure it out."
+    },
+    {
+        "idiom": "sing someone's or something's praises",
+        "source": "chapter 6",
+        "definition": "If you sing someone's or something's praises, you praise them in an enthusiastic way.",
+        "example": "Smith continued to sing Tony's praises. 'He's so different, he's so natural', he said."
+    },
+    {
+        "idiom": "take someone under your wing",
+        "source": "chapter 6",
+        "definition": "If you take someone under your wing, you help and protect them.",
+        "example": "Jane took us under her wing and showed us around."
+    },
+    {
+        "idiom": "a tower of strength",
+        "source": "chapter 6",
+        "definition": "If someone is a tower of strength for you, they give you a lot of help and support when you are having difficulties.",
+        "example": "My eldest daughter was a tower of strength for me when I was sick."
+    },
+    {
+        "idiom": "be in the same boat",
+        "source": "chapter 6",
+        "definition": "If you are in the same boat as someone else, you are in the same difficult situation as them.",
+        "example": "As we're both in the same boat, it might be sensible to work together."
+    },
+    {
+        "idiom": "bend over backwards",
+        "source": "chapter 6",
+        "definition": "If you bend over backwards to do something, you try extremely hard to please someone or to do what they want.",
+        "example": "Most parents bend over backwards to treat their children equally."
+    },
+    {
+        "idiom": "give and take",
+        "source": "chapter 6",
+        "definition": "If there is give and take in a relationship, both people are willing to make compromises and accept each other's opinions.",
+        "example": "Girls and boys learn that there must be give and take in all relationships."
+    },
+    {
+        "idiom": "hold someone's hand",
+        "source": "chapter 6",
+        "definition": "If you hold someone's hand in a difficult situation, you give them support and encouragement.",
+        "example": "Manuelle held his son's hand throughout his marriage break-up."
+    },
+    {
+        "idiom": "meet someone halfway",
+        "source": "chapter 6",
+        "definition": "If you meet someone halfway, you compromise with them.",
+        "example": "Smith and Burnet's policy with customers who complain is to try to meet them halfway."
+    },
+    {
+        "idiom": "be there for someone",
+        "source": "chapter 6",
+        "definition": "If you are there for someone, you give them help and support when they need it.",
+        "example": "You know I'll always be there for you."
+    },
+    {
+        "idiom": "steer clear of something",
+        "source": "chapter 7",
+        "definition": "If you steer clear of someone or something, you deliberately avoid them.",
+        "example": "I'd advise anyone with sensitive or dry skin to steer clear of soap."
+    },
+    {
+        "idiom": "try your hand at something",
+        "source": "chapter 7",
+        "definition": "If you try your hand at something, you try doing it in order to see whether you are good at it.",
+        "example": "After he left school, he tried his hand at a variety of jobs - bricklayer, baker, post man."
+    },
+    {
+        "idiom": "up to your ears",
+        "source": "chapter 7",
+        "definition": "If you are up to your ears in work or in an unpleasant situation, you are very busy with it or are deeply involved in it.",
+        "example": "After advertising six vacancies, they are now up to their ears in applications forms."
+    },
+    {
+        "idiom": "whet someone's appetite",
+        "source": "chapter 7",
+        "definition": "If something whets your appetite for something, it makes you want to have it or do it.",
+        "example": "My trip to America the previous year had whetted my nose for foreign travel."
+    },
+    {
+        "idiom": "have an axe to grind",
+        "source": "chapter 7",
+        "definition": "If you have an axe to grind, you have a strong personal opinion about something and you want other people to agree with you.",
+        "example": "We believe that the judge is fair and has no axe to grind."
+    },
+    {
+        "idiom": "jump on the bandwagon",
+        "source": "chapter 7",
+        "definition": "If you jump on the bandwagon, you become involved in an activity because it is becoming very popular.",
+        "example": "It looks as though more and more companies will soon be leaping on the bandwagon."
+    },
+    {
+        "idiom": "keep a low profile",
+        "source": "chapter 7",
+        "definition": "If you keep a low profile, you avoid doing anything that will make you noticeable.",
+        "example": "The president continues to keep a low profile on vacation in Maine."
+    },
+    {
+        "idiom": "mean business",
+        "source": "chapter 7",
+        "definition": "If someone means business, they are serious about what they are saying or doing.",
+        "example": "He arrived at precisely nine o'clock, wearing workmen's boots and carrying his tool kit, so we knew he meant business."
+    },
+    {
+        "idiom": "not be someone's cup of tea",
+        "source": "chapter 7",
+        "type": "verb",
+        "definition": "If something /is not your cup of tea/, you do not like it or are not interested in it.",
+        "example": "There's a concert tonight but rock music isn't really my cup of tea."
+    },
+    {
+        "idiom": "poke your nose into something",
+        "source": "chapter 7",
+        "definition": "If you poke your nose into something, you try to find out about something that is private or does not concern you.",
+        "example": "If you want people to respect you, don't poke your nose into their private affairs."
+    },
+    {
+        "idiom": "a labour of love",
+        "source": "chapter 7",
+        "definition": "If you describe a task as a labour of love, you mean that you do it because you enjoy it, although it involves a lot of hard work.",
+        "example": "Writing this book has been a great pleasure, a true labour of love."
+    },
+    {
+        "idiom": "call it a day",
+        "source": "chapter 8",
+        "definition": "If you call it a day, you decide to stop doing something you have been doing that day.",
+        "example": "I searched for hours but I had to call it a day when it got dark."
+    },
+    {
+        "idiom": "call it a night",
+        "source": "chapter 8",
+        "type": "verb",
+        "definition": "If someone says that they are going to call it a night, they are going to stop what they are doing in the evening and go to bed.",
+        "example": "Tomorrow is going to be busy, so let's call it a night."
+    },
+    {
+        "idiom": "enough is enough",
+        "source": "chapter 8",
+        "definition": "If you say 'Enough is enough!', you mean that you have suffered something for too long and you are not going to accept it any more.",
+        "example": "'Enough is enough!' said the children's exasperated mother."
+    },
+    {
+        "idiom": "from scratch",
+        "source": "chapter 8",
+        "type": "adv",
+        "definition": "If you do something from scratch, you do it starting with nothing or from the very beginning.",
+        "example": "Sometimes it's quicker just to do the whole job from scratch."
+    },
+    {
+        "idiom": "get something up and running",
+        "source": "chapter 8",
+        "definition": "If you get a piece of equipment or a system up and running, you install the equipment or set up the system so that it is working.",
+        "example": "We unpacked the new PC and installed the software. We got it up and running."
+    },
+    {
+        "idiom": "grind to a halt",
+        "source": "chapter 8",
+        "definition": "If something grinds to a halt, it slowly stops working or progressing.",
+        "example": "The traffic was so bad that our car ground to a halt."
+    },
+    {
+        "idiom": "hit the ground running",
+        "source": "chapter 8",
+        "definition": "If someone hits the ground running, they start doing something new very enthusiastically and effectively.",
+        "example": "We need someone who can start the job immediately and hit the ground running."
+    },
+    {
+        "idiom": "knock something on the head",
+        "source": "chapter 8",
+        "definition": "If you knock something on the head, you stop it from continuing.",
+        "example": "This situation has gone on too long. I think it's time we knocked it on the head."
+    },
+    {
+        "idiom": "nip something in the bud",
+        "source": "chapter 8",
+        "definition": "If you nip something in the bud, you stop it from developing by dealing with it firmly at an early stage.",
+        "example": "This kind of behaviour needs to be nipped in the bud."
+    },
+    {
+        "idiom": "set the ball rolling",
+        "source": "chapter 8",
+        "definition": "If you set the ball rolling, you start an activity or process.",
+        "example": "I think it's time to set the ball rolling."
+    },
+    {
+        "idiom": "turn over a new leaf",
+        "source": "chapter 8",
+        "definition": "If you turn over a new leaf, you change your behaviour and become a better person.",
+        "example": "You should turn over a new leaf. You might surprise yourself."
+    },
+    {
+        "idiom": "cut your losses",
+        "source": "chapter 8",
+        "definition": "If you cut your losses, you stop doing something that is failing in order to avoid wasting more time, money, or effort.",
+        "example": "You must cut your losses."
+    },
+    {
+        "idiom": "call it quits",
+        "source": "chapter 8",
+        "definition": "If you call it quits, you stop doing something.",
+        "example": "Henry's a changed person. He must have called it quits."
+    },
+    {
+        "idiom": "break your back",
+        "source": "chapter 9",
+        "definition": "If you break your back to do something, you work extremely hard to try to do it.",
+        "example": "I've been breaking my back to get this work done on time."
+    },
+    {
+        "idiom": "do your level best",
+        "source": "chapter 9",
+        "definition": "If you do your level best, you try as hard as you can.",
+        "example": "I did my level best to answer all their questions."
+    },
+    {
+        "idiom": "fall on your feet",
+        "source": "chapter 9",
+        "definition": "If you fall on your feet, you are lucky and successful after a difficult or dangerous experience.",
+        "example": "He has fallen on his feet with this new job - he'll earn a fortune."
+    },
+    {
+        "idiom": "go all out",
+        "source": "chapter 9",
+        "definition": "If you go all out to do something, you make a very great effort to do it.",
+        "example": "The team are ready to go all out for another win after last week's triumph."
+    },
+    {
+        "idiom": "go the extra mile",
+        "source": "chapter 9",
+        "definition": "If you go the extra mile, you make more effort than is expected of you.",
+        "example": "The President is determined to go the extra mile for peace."
+    },
+    {
+        "idiom": "do things by halves",
+        "source": "chapter 9",
+        "definition": "If you don't do things by halves, you do them completely and thoroughly.",
+        "example": "As he never did things by halves, he was soon exhausted."
+    },
+    {
+        "idiom": "not lift a finger or not raise a finger",
+        "source": "chapter 9",
+        "definition": "If you say that someone doesn't lift a finger, you mean that they do not make any effort to help.",
+        "example": "I do all the cleaning. She never lifts a finger to help."
+    },
+    {
+        "idiom": "make a meal of something",
+        "source": "chapter 9",
+        "definition": "If you make a meal of something, you spend too much time or effort doing it.",
+        "example": "Don't make a meal of it."
+    },
+    {
+        "idiom": "pull your socks up",
+        "source": "chapter 9",
+        "definition": "If someone tells you to pull your socks up, they want you to improve your behaviour or work.",
+        "example": "Her boss told her she'd have to pull her socks up."
+    },
+    {
+        "idiom": "pull your weight",
+        "source": "chapter 9",
+        "definition": "If you pull your weight, you work as hard as everyone else who is involved in the same task or activity.",
+        "example": "I felt that John wasn't pulling his weight around the house and asked him to do a bit more of the cleaning."
+    },
+    {
+        "idiom": "work your fingers to the bone",
+        "source": "chapter 9",
+        "definition": "If you work your fingers to the bone, you work extremely hard.",
+        "example": "Millions of people have to work their fingers to the bone just to stay alive."
+    },
+    {
+        "idiom": "work your socks off",
+        "source": "chapter 9",
+        "definition": "If you work your socks off, you work very hard.",
+        "example": "I've been working my socks off for the past two years."
+    },
+    {
+        "idiom": "cut corners",
+        "source": "chapter 9",
+        "definition": "If you cut corners, you do something badly or cheaply in order to save time or money.",
+        "example": "Don't try to cut corners as you'll only be making work for yourself later on."
+    },
+    {
+        "idiom": "above board",
+        "source": "chapter 10",
+        "definition": "If a situation or business is above board, it is honest and legal.",
+        "example": "Anyone who wants to inspect our books can see for themselves that we are totally above board."
+    },
+    {
+        "idiom": "not beat around the bush / not beat about the bush",
+        "source": "chapter 10",
+        "definition": "If you don't beat around the bush or don't beat about the bush, you say what you want to say clearly and directly.",
+        "example": "Let's not beat about the bush. I think these letters are worth a lot to you."
+    },
+    {
+        "idiom": "below the belt",
+        "source": "chapter 10",
+        "definition": "If someone says something that is below the belt, they say something cruel and unfair.",
+        "example": "He made a joke about her divorce which I thought was a bit below the belt."
+    },
+    {
+        "idiom": "by fair means or foul",
+        "source": "chapter 10",
+        "definition": "If someone tries to achieve something by fair means or foul, they use any possible method to achieve it, not caring if their behaviour is dishonest or unfair.",
+        "example": "She's determined to catch that criminal by fair means or foul."
+    },
+    {
+        "idiom": "call a spade a spade",
+        "source": "chapter 10",
+        "definition": "If you call a spade a spade, you speak frankly and directly, even if it is unpleasant.",
+        "example": "We should be honest and call a spade a spade."
+    },
+    {
+        "idiom": "come clean",
+        "source": "chapter 10",
+        "definition": "If you come clean, you tell the truth about something you have been keeping secret.",
+        "example": "She decided to come clean and tell them exactly what had happened."
+    },
+    {
+        "idiom": "fair and square",
+        "source": "chapter 10",
+        "definition": "If someone wins a competition or does something fair and square, they do it without cheating or lying.",
+        "example": "We were beaten fair and square."
+    },
+    {
+        "idiom": "keep your nose clean",
+        "source": "chapter 10",
+        "definition": "If you keep your nose clean, you behave well and avoid trouble.",
+        "example": "He'd worked hard and kept his nose clean for all those years."
+    },
+    {
+        "idiom": "lay your cards on the table / put your cards on the table",
+        "source": "chapter 10",
+        "definition": "If you lay your cards on the table or put your cards on the table, you tell someone the truth about your feelings, opinions, or plans.",
+        "example": "I'll lay my cards on the table: we've run out of money."
+    },
+    {
+        "idiom": "on the level",
+        "source": "chapter 10",
+        "type": "adv",
+        "definition": "If someone is on the level, they are being honest and sincere.",
+        "example": "When Carlo told me our class was cancelled, I wasn't sure he was on the level."
+    },
+    {
+        "idiom": "play fair",
+        "source": "chapter 10",
+        "definition": "If you play fair, you compete or behave honestly and according to the rules.",
+        "example": "In all industries you need a level playing field to compete fairly with your competitors."
+    },
+    {
+        "idiom": "shifting the goalposts",
+        "source": "chapter 10",
+        "definition": "If someone keeps shifting the goalposts, they unfairly change the rules or demands of a situation while you are trying to achieve something.",
+        "example": "I can never please my manager - he always seems to be shifting the goalposts."
+    },
+    {
+        "idiom": "step out of line",
+        "source": "chapter 10",
+        "definition": "If you step out of line, you behave inappropriately.",
+        "example": "'You'll be okay if you shut up and keep your nose clean and don't step out of line'."
+    },
+    {
+        "idiom": "stab someone in the back",
+        "source": "chapter 10",
+        "definition": "If someone that you trust stabs you in the back, they secretly do something which hurts and betrays you.",
+        "example": "He felt betrayed, as though his son had stabbed him in the back."
+    },
+    {
+        "idiom": "to someone's face",
+        "source": "chapter 10",
+        "type": "adv",
+        "definition": "If you say something, especially something critical or unpleasant, to someone's face, you say it directly to them.",
+        "example": "He won't say it to my face because he's scared of me."
+    },
+    {
+        "idiom": "with no strings attached",
+        "source": "chapter 10",
+        "type": "adv",
+        "definition": "If something is given with no strings attached, it is given without any special conditions or obligations.",
+        "example": "The college said the donation had been made with no strings attached."
+    },
+    {
+        "idiom": "a level playing field",
+        "source": "chapter 10",
+        "definition": "If there is a level playing field, everyone has the same opportunities.",
+        "example": "The other candidates have more money than me so it's not a level playing field."
+    },
+    {
+        "idiom": "give the game away",
+        "source": "chapter 11",
+        "definition": "If someone or something gives the game away, they reveal something which someone had been trying to keep secret.",
+        "example": "Eric had intended to make his announcement in an article in The Times but the paper gave the game away by advertising the article a week before publishing."
+    },
+    {
+        "idiom": "go behind someone's back",
+        "source": "chapter 11",
+        "definition": "If someone goes behind your back, they do something secretly or without your permission.",
+        "example": "Do you think I wouldn't know if you went behind my back?"
+    },
+    {
+        "idiom": "go through the motions",
+        "source": "chapter 11",
+        "definition": "If you go through the motions, you do something that you have to do or are expected to do, but without any real effort or enthusiasm.",
+        "example": "Ministers and heads of industry are going through the motions of negotiating with the unions."
+    },
+    {
+        "idiom": "be on the fiddle",
+        "source": "chapter 11",
+        "definition": "If someone is on the fiddle, they are getting money in a dishonest or illegal way.",
+        "example": "We found out after she left that she'd been taking money from the till. She was on the fiddle."
+    },
+    {
+        "idiom": "blow the whistle on someone",
+        "source": "chapter 11",
+        "definition": "If you blow the whistle on someone, you tell someone in authority that they are doing something wrong or illegal.",
+        "example": "They stole some cash and she blew the whistle on them."
+    },
+    {
+        "idiom": "a white lie",
+        "source": "chapter 11",
+        "definition": "A white lie is a lie that you tell someone in order to protect their feelings or to avoid causing them offence.",
+        "example": "She wasn't enjoying herself so she said she was too tired to stay. She told a white lie."
+    },
+    {
+        "idiom": "have a hidden agenda",
+        "source": "chapter 11",
+        "definition": "If someone has a hidden agenda, they have a secret reason for doing something.",
+        "example": "The company offered him a 'free' holiday weekend and then tried to sell him the apartment. They had a hidden agenda."
+    },
+    {
+        "idiom": "be economical with the truth",
+        "source": "chapter 11",
+        "definition": "If someone is economical with the truth, they do not tell the whole truth about something because it might be embarrassing or cause problems for them.",
+        "example": "The newspapers have been economical with the truth on this matter."
+    },
+    {
+        "idiom": "lead someone up the garden path",
+        "source": "chapter 11",
+        "definition": "If you lead someone up the garden path, you deceive them or trick them into believing something that is not true.",
+        "example": "When they mentioned a pay rise they were leading me up the garden path."
+    },
+    {
+        "idiom": "lie through your teeth",
+        "source": "chapter 11",
+        "definition": "If someone lies through their teeth, they tell you something that they know is completely false.",
+        "example": "I can see they're not telling the truth - they're lying through their teeth."
+    },
+    {
+        "idiom": "sweep something under the carpet",
+        "source": "chapter 11",
+        "definition": "If you sweep something under the carpet, you try to hide a problem or mistake so that people do not find out about it.",
+        "example": "There have been allegations of corruption, but the company is trying to sweep it under the carpet."
+    },
+    {
+        "idiom": "bite someone's head off or snap someone's head off",
+        "source": "chapter 12",
+        "definition": "If you bite someone's head off or snap someone's head off, you speak to them in a sudden, angry way, usually without good reason.",
+        "example": "I was surprised when she bit my head off."
+    },
+    {
+        "idiom": "hit the roof or go through the roof",
+        "source": "chapter 12",
+        "definition": "If someone hits the roof or goes through the roof, they become very angry.",
+        "example": "My sister will go through the roof when she finds out."
+    },
+    {
+        "idiom": "blow a fuse or lose it",
+        "source": "chapter 12",
+        "definition": "If someone blows a fuse or loses it, they suddenly become very angry.",
+        "example": "Kenji finally lost it when his laptop crashed again."
+    },
+    {
+        "idiom": "be a pain in the neck",
+        "source": "chapter 12",
+        "definition": "If someone or something is a pain in the neck, they are very annoying.",
+        "example": "There's a boy in our class who's a real pain in the neck."
+    },
+    {
+        "idiom": "throw a fit",
+        "source": "chapter 12",
+        "definition": "If someone throws a fit, they become very angry and behave in a wild and uncontrolled way.",
+        "example": "I don't want to tell you because I'm sure you'll throw a fit."
+    },
+    {
+        "idiom": "have a chip on your shoulder",
+        "source": "chapter 12",
+        "definition": "If you have a chip on your shoulder, you are sensitive about something and get angry easily when it is mentioned.",
+        "example": "Don't mention English grades because Jonas has a chip on his shoulder after doing badly last year."
+    },
+    {
+        "idiom": "drive someone up the wall",
+        "source": "chapter 12",
+        "definition": "If someone or something drives you up the wall, they make you very annoyed.",
+        "example": "His stupid jokes drive me up the wall."
+    },
+    {
+        "idiom": "fly off the handle",
+        "source": "chapter 12",
+        "definition": "If someone flies off the handle, they suddenly become very angry.",
+        "example": "Lourdes is always flying off the handle at her husband."
+    },
+    {
+        "idiom": "give someone a filthy look or give someone a dirty look",
+        "source": "chapter 12",
+        "definition": "If someone gives you a filthy look or a dirty look, they look at you in a very unpleasant and angry way.",
+        "example": "Majid gave me a filthy look to hear Viktor talking about all his successful business deals."
+    },
+    {
+        "idiom": "be a sore point or hit a sore point",
+        "source": "chapter 12",
+        "definition": "If something is a sore point or hits a sore point, it is a subject that someone is very sensitive about and easily becomes angry or upset about.",
+        "example": "Virginia's engagement is a sore point with Cynthia."
+    },
+    {
+        "idiom": "give someone hell",
+        "source": "chapter 12",
+        "definition": "If someone gives you hell, they punish or criticize you severely.",
+        "example": "The headmaster gave us hell when he found out what we'd done."
+    },
+    {
+        "idiom": "make your blood boil",
+        "source": "chapter 12",
+        "definition": "If something makes your blood boil, it makes you very angry.",
+        "example": "The knowledge that he is guilty of this crime makes my blood boil."
+    },
+    {
+        "idiom": "have a face like thunder",
+        "source": "chapter 12",
+        "definition": "If someone has a face like thunder, they look extremely angry.",
+        "example": "I saw Mr Clarke come marching out of the room with a face like thunder."
+    },
+    {
+        "idiom": "have butterflies in your stomach",
+        "source": "chapter 13",
+        "definition": "If you have butterflies in your stomach, you feel very nervous and excited about something that you are going to do.",
+        "example": "I had butterflies in my stomach before I walked out onto the stage."
+    },
+    {
+        "idiom": "get the creeps or give someone the creeps",
+        "source": "chapter 13",
+        "definition": "If someone or something gives you the creeps, they make you feel nervous or frightened.",
+        "example": "That statue in my parents' hallway always gave me the creeps."
+    },
+    {
+        "idiom": "jump out of your skin or nearly jump out of your skin",
+        "source": "chapter 13",
+        "definition": "If you jump out of your skin or nearly jump out of your skin, you are suddenly very surprised or shocked by something.",
+        "example": "I nearly jumped out of my skin when the plate crashed to the floor."
+    },
+    {
+        "idiom": "be frightened out of your wits or scare someone out of their wits or frighten the life out of someone",
+        "source": "chapter 13",
+        "definition": "If you are frightened out of your wits, or someone scares you out of your wits or frightens the life out of you, you are very frightened.",
+        "example": "The fire alarm went off during class and scared the life out of us."
+    },
+    {
+        "idiom": "be a bundle of nerves",
+        "source": "chapter 13",
+        "definition": "If you are a bundle of nerves, you are very nervous.",
+        "example": "On the morning of the match I was a bundle of nerves."
+    },
+    {
+        "idiom": "be on edge",
+        "source": "chapter 13",
+        "definition": "If you are on edge, you are nervous and easily upset.",
+        "example": "He was on the edge, continually glancing behind him, thinking he was being followed."
+    },
+    {
+        "idiom": "be at the end of your tether",
+        "source": "chapter 13",
+        "definition": "If you are at the end of your tether, you have no patience or strength left to deal with a difficult situation.",
+        "example": "Poor Charles was totally exhausted and just about at the end of his wits."
+    },
+    {
+        "idiom": "get cold feet",
+        "source": "chapter 13",
+        "definition": "If you get cold feet, you suddenly become nervous about doing something that you had planned to do.",
+        "example": "Leaving Ireland wasn't easy and I had cold feet about it a couple of times."
+    },
+    {
+        "idiom": "not get a word in edgeways",
+        "source": "chapter 13",
+        "definition": "If you cannot get a word in edgeways in a conversation, you find it difficult to say anything because someone else is talking so much.",
+        "example": "For heaven's sake, Sue, will you let me get a word in edgeways!"
+    },
+    {
+        "idiom": "until you are blue in the face",
+        "source": "chapter 13",
+        "type": "adv",
+        "definition": "If you say that someone can say or do something until they are blue in the face, you mean that however many times they say or do it, it will have no effect.",
+        "example": "I argued until I was blue in the face that the project was worth the money, but no one would listen."
+    },
+    {
+        "idiom": "have a bone to pick with someone",
+        "source": "chapter 14",
+        "definition": "If you have a bone to pick with someone, you want to talk to them about something they have done that has annoyed you.",
+        "example": "'I've got a bone to pick with you'. She wanted to bring up a matter that she had been afraid to discuss before."
+    },
+    {
+        "idiom": "have a go at someone",
+        "source": "chapter 14",
+        "definition": "If you have a go at someone, you criticize them strongly, often without good reason.",
+        "example": "I was angry because I figured she was just having a go at me for the sake of it."
+    },
+    {
+        "idiom": "be in someone's bad books",
+        "source": "chapter 14",
+        "definition": "If you are in someone's bad books, you have done something that has annoyed them.",
+        "example": "I was in my teacher's bad books for not doing my homework."
+    },
+    {
+        "idiom": "cross swords",
+        "source": "chapter 14",
+        "definition": "If you cross swords with someone, you argue or disagree strongly with them.",
+        "example": "I have crossed swords a number of times with my boss."
+    },
+    {
+        "idiom": "not see eye to eye",
+        "source": "chapter 14",
+        "definition": "If two people do not see eye to eye, they have different opinions about something and cannot agree.",
+        "example": "They rarely saw eye to eye on things."
+    },
+    {
+        "idiom": "be a bone of contention",
+        "source": "chapter 14",
+        "definition": "If something is a bone of contention, it is a subject that people argue about.",
+        "example": "The date of the wedding became a bone of contention between the two families."
+    },
+    {
+        "idiom": "argue the toss",
+        "source": "chapter 14",
+        "definition": "If you argue the toss, you continue to argue about something after a decision has been made.",
+        "example": "They each felt strongly about the issue and finally agreed to differ rather than argue the toss."
+    },
+    {
+        "idiom": "kiss and make up",
+        "source": "chapter 14",
+        "definition": "If people kiss and make up, they argue or fight, but then become friendly again.",
+        "example": "They argue constantly but always manage to kiss and make up."
+    },
+    {
+        "idiom": "be at each other's throats",
+        "source": "chapter 14",
+        "definition": "If people are at each other's throats, they are arguing angrily.",
+        "example": "The children were constantly at each other's throats during the school holidays."
+    },
+    {
+        "idiom": "clear the air",
+        "source": "chapter 14",
+        "definition": "If you clear the air, you talk about a problem with someone in order to settle it.",
+        "example": "I finally managed to explain what really happened and that cleared the air."
+    },
+    {
+        "idiom": "jump down someone's throat",
+        "source": "chapter 14",
+        "definition": "If someone jumps down your throat, they react angrily to something you say, often when you did not expect them to.",
+        "example": "There's no need to jump down my throat when I try to make a helpful suggestion."
+    },
+    {
+        "idiom": "give someone a piece of your mind",
+        "source": "chapter 14",
+        "definition": "If you give someone a piece of your mind, you tell them very clearly that you are angry with them.",
+        "example": "If I'd been the parent, I'd have given the teacher a piece of my mind."
+    },
+    {
+        "idiom": "a battle of wills",
+        "source": "chapter 14",
+        "definition": "A battle of wills is a situation in which two people or groups are trying to achieve something different and neither will give in.",
+        "example": "The battle of wills may go on for some time as neither child wants to lose the argument."
+    },
+    {
+        "idiom": "a shouting match",
+        "source": "chapter 14",
+        "definition": "A shouting match is an argument in which people shout angrily at each other.",
+        "example": "The argument began to develop into a noisy shouting match."
+    },
+    {
+        "idiom": "agree to differ",
+        "source": "chapter 14",
+        "definition": "If people agree to differ, they accept that they have different opinions about something and stop arguing about it.",
+        "example": "Let's just stop arguing about it and agree to differ, shall we?"
+    },
+    {
+        "idiom": "come up trumps",
+        "source": "chapter 15",
+        "definition": "If someone comes up trumps, they do something that is very helpful, especially when you were not expecting it.",
+        "example": "Mr Cheng's secretary finally found the missing documents and came up trumps."
+    },
+    {
+        "idiom": "come up in the world",
+        "source": "chapter 15",
+        "definition": "If someone has come up in the world, they have become more successful or wealthy than they were before.",
+        "example": "He's really come up in the face since his humble beginnings."
+    },
+    {
+        "idiom": "go from strength to strength",
+        "source": "chapter 15",
+        "definition": "If someone or something goes from strength to strength, they become more and more successful.",
+        "example": "The audience loved her dancing and her performance went from strength to strength."
+    },
+    {
+        "idiom": "win hands down",
+        "source": "chapter 15",
+        "definition": "If you win hands down, you win very easily.",
+        "example": "Our team was far better than the competition and we won hands down."
+    },
+    {
+        "idiom": "with flying colours",
+        "source": "chapter 15",
+        "type": "adv",
+        "definition": "If you do something with flying colours, you do it very successfully.",
+        "example": "Once I've done the research, writing the report will be plain sailing. (Note: 'plain sailing' is used in the example sentence, but 'with flying colours' means 'very successfully'.)"
+    },
+    {
+        "idiom": "work like a charm",
+        "source": "chapter 15",
+        "definition": "If something works like a charm, it is very effective and solves a problem easily.",
+        "example": "The new software works like a charm."
+    },
+    {
+        "idiom": "the luck of the draw",
+        "source": "chapter 15",
+        "definition": "If something is the luck of the draw, it is a result of chance and something that you have no control over.",
+        "example": "Getting a good seat was just the luck of the draw."
+    },
+    {
+        "idiom": "touch and go",
+        "source": "chapter 15",
+        "definition": "If a situation is touch and go, it is uncertain whether someone will succeed or survive.",
+        "example": "It was touch and go as to whether he would survive the accident - but he's made a full recovery."
+    },
+    {
+        "idiom": "go belly-up",
+        "source": "chapter 15",
+        "definition": "If a business goes belly-up, it fails completely and has to close down.",
+        "example": "Many small businesses have gone belly-up during the recession."
+    },
+    {
+        "idiom": "fall flat on your face",
+        "source": "chapter 15",
+        "definition": "If you fall flat on your face, you fail completely at something, often in a way that is embarrassing.",
+        "example": "We started well, but it all fell flat on its face and we lost five matches in a row."
+    },
+    {
+        "idiom": "be fighting a losing battle",
+        "source": "chapter 15",
+        "definition": "If you are fighting a losing battle, you are trying to achieve something that is impossible.",
+        "example": "I told myself I was going to try even harder and I would not be fighting a losing battle again."
+    },
+    {
+        "idiom": "go pear-shaped",
+        "source": "chapter 15",
+        "definition": "If a plan or event goes pear-shaped, it goes badly wrong.",
+        "example": "Our presentation started off well, but then it all went pear-shaped at the end."
+    },
+    {
+        "idiom": "hit the nail on the head",
+        "source": "chapter 15",
+        "definition": "If you hit the nail on the head, you say exactly the right thing about a situation.",
+        "example": "I agree with you entirely. I think you've hit the nail on the head."
+    },
+    {
+        "idiom": "plain sailing",
+        "source": "chapter 15",
+        "definition": "If something is plain sailing, it is easy and without problems.",
+        "example": "Once I've done the research, writing the report will be plain sailing."
+    },
+    {
+        "idiom": "not be the end of the world",
+        "source": "chapter 15",
+        "definition": "If something is not the end of the world, it is not as bad as it seems.",
+        "example": "Okay, so you failed the test, but it's not the end of the world."
+    },
+    {
+        "idiom": "be flogging a dead horse",
+        "source": "chapter 16",
+        "definition": "If you are flogging a dead horse, you are trying to make someone feel interested in something that they are no longer interested in.",
+        "example": "I told him he was flogging a dead horse and he should stop trying to get her to go out with him."
+    },
+    {
+        "idiom": "get to grips with something",
+        "source": "chapter 16",
+        "definition": "If you get to grips with something, you begin to understand it and deal with it effectively.",
+        "example": "I'm finding it hard to get to grips with this new computer program."
+    },
+    {
+        "idiom": "go around in circles",
+        "source": "chapter 16",
+        "type": "verb",
+        "definition": "If you say that someone is going round in circles, you mean that they are not making any progress because they keep coming back to the same point.",
+        "example": "We've been going round in circles all morning and haven't reached a decision."
+    },
+    {
+        "idiom": "in the pipeline",
+        "source": "chapter 16",
+        "type": "adv",
+        "definition": "If something is in the pipeline, it is being planned or developed and will happen or exist at some point in the future.",
+        "example": "The company has several new products in the pipeline."
+    },
+    {
+        "idiom": "light at the end of the tunnel",
+        "source": "chapter 16",
+        "definition": "If there is light at the end of the tunnel, there is hope that a difficult period will end.",
+        "example": "After several months of hard work, we can finally see the light at the end of the tunnel."
+    },
+    {
+        "idiom": "on the right track",
+        "source": "chapter 16",
+        "type": "adv",
+        "definition": "If you are on the right track, you are doing things in a way that will lead to success.",
+        "example": "I think we're on the right track now."
+    },
+    {
+        "idiom": "put your act together",
+        "source": "chapter 16",
+        "definition": "If you tell someone to put their act together, you are telling them to organize themselves and behave more effectively.",
+        "example": "You need to put your act together if you want to pass your exams."
+    },
+    {
+        "idiom": "the calm before the storm or the lull before the storm",
+        "source": "chapter 17",
+        "definition": "You describe a very quiet period as the calm before the storm or the lull before the storm if it is followed by a period of trouble or intense activity.",
+        "example": "The town was quiet, but everyone knew it was the calm before the storm."
+    },
+    {
+        "idiom": "castles in the air",
+        "source": "chapter 17",
+        "type": "noun",
+        "definition": "If someone talks about building castles in the air, they are making plans that are unrealistic and unlikely to happen.",
+        "example": "He's always making plans to get rich quick, but they're just castles in the air."
+    },
+    {
+        "idiom": "not count your chickens or not count your chickens before they're hatched",
+        "source": "chapter 17",
+        "definition": "If you say that you are /not counting your chickens (before they're hatched)/, you mean that you are not making plans for the future because you do not know for certain how a particular situation will develop.",
+        "example": "If we get through to the next stage we'll be competing against some top-class sides, so l'm not counting my chickens. When dealing with important financial arrangements, never count your chickens before they're hatched."
+    },
+    {
+        "idiom": "feel something in your bones",
+        "source": "chapter 17",
+        "definition": "If you feel something in your bones, you feel very strongly that something is true or that something will happen.",
+        "example": "I feel it in my bones that this is going to be a successful project."
+    },
+    {
+        "idiom": "not have a prayer",
+        "source": "chapter 17",
+        "definition": "If you say that someone doesn't have a prayer of doing something, you mean that there is no possibility that they will succeed.",
+        "example": "He doesn't have a prayer of winning the election."
+    },
+    {
+        "idiom": "it's early days or it's early in the day",
+        "source": "chapter 17",
+        "definition": "If you say it's early days or it's early in the day, you mean that it is too soon to know what will happen in the future.",
+        "example": "It's early days yet, so we can't be sure if the business will be a success."
+    },
+    {
+        "idiom": "it's on the cards",
+        "source": "chapter 17",
+        "definition": "If something is on the cards, it is likely to happen.",
+        "example": "A rise in interest rates is on the cards."
+    },
+    {
+        "idiom": "like looking for a needle in a haystack",
+        "source": "chapter 17",
+        "definition": "If you say that something is like looking for a needle in a haystack, you mean that it is almost impossible to find because it is hidden among a large number of other things.",
+        "example": "Trying to find a parking space in this city is like looking for a needle in a haystack."
+    },
+    {
+        "idiom": "a long shot",
+        "source": "chapter 17",
+        "definition": "If something is a long shot, it is unlikely to be successful, but it is worth trying.",
+        "example": "It's a long shot, but I'll apply for the job anyway."
+    },
+    {
+        "idiom": "par for the course",
+        "source": "chapter 17",
+        "definition": "If something is par for the course, it is what you would normally expect to happen.",
+        "example": "Delays are par for the course on this railway line."
+    },
+    {
+        "idiom": "a stumbling block",
+        "source": "chapter 18",
+        "definition": "A stumbling block is something that prevents you from achieving something.",
+        "example": "Lack of funding is the main stumbling block to the project."
+    },
+    {
+        "idiom": "a Catch 22",
+        "source": "chapter 18",
+        "definition": "A Catch 22 is an extremely frustrating situation in which one thing cannot happen until another thing has happened, but the other thing cannot happen until the first thing has happened.",
+        "example": "She can't get a job because she doesn't have any experience, but she can't get any experience because she can't get a job - it's a Catch 22 situation."
+    },
+    {
+        "idiom": "a vicious circle",
+        "source": "chapter 18",
+        "definition": "A vicious circle is a continuing bad situation in which one problem causes another problem which then makes the first problem worse.",
+        "example": "He was tired and stressed which made it difficult to sleep, and this lack of sleep made him even more tired - it was a vicious circle."
+    },
+    {
+        "idiom": "the fly in the ointment",
+        "source": "chapter 18",
+        "definition": "A fly in the ointment is a small problem that spoils something that is otherwise enjoyable.",
+        "example": "The only fly in the ointment was the weather."
+    },
+    {
+        "idiom": "an own goal",
+        "source": "chapter 18",
+        "type": "noun",
+        "definition": "If someone scores an own goal, they do something that was intended to harm someone else but which harms them instead.",
+        "example": "In trying to discredit his opponent, the politician scored an own goal."
+    },
+    {
+        "idiom": "bite off more than you can chew",
+        "source": "chapter 18",
+        "definition": "If you bite off more than you can chew, you try to do something that is too difficult for you.",
+        "example": "I think I've bitten off more than I can chew by agreeing to do all this extra work."
+    },
+    {
+        "idiom": "put your foot in it",
+        "source": "chapter 18",
+        "definition": "If you put your foot in it, you say something tactless or embarrassing.",
+        "example": "I really put my foot in it when I asked her if she was pregnant."
+    },
+    {
+        "idiom": "in over your head",
+        "source": "chapter 18",
+        "type": "adv",
+        "definition": "If you are in over your head, you are involved in a situation that you cannot deal with because it is too difficult or involves too much work.",
+        "example": "I felt I was in over my head in my new job."
+    },
+    {
+        "idiom": "not have a leg to stand on",
+        "source": "chapter 18",
+        "definition": "If you do not have a leg to stand on, you do not have any good reasons or facts to support your argument.",
+        "example": "The company didn't have a leg to stand on when we complained about the faulty product."
+    },
+    {
+        "idiom": "out of the frying pan into the fire",
+        "source": "chapter 18",
+        "type": "adv",
+        "definition": "If you go out of the frying pan into the fire, you leave a bad situation and go into one that is even worse.",
+        "example": "He left his stressful job to start his own business, but it was a case of out of the frying pan into the fire."
+    },
+    {
+        "idiom": "be skating on thin ice",
+        "source": "chapter 19",
+        "definition": "If you are skating on thin ice, you are doing something risky where you could easily get into trouble.",
+        "example": "He's skating on thin ice by criticizing his boss so openly."
+    },
+    {
+        "idiom": "a safe bet",
+        "source": "chapter 19",
+        "definition": "If you say that someone or something is a safe bet, you mean that you are confident that they will be successful or reliable.",
+        "example": "He's a safe bet for promotion."
+    },
+    {
+        "idiom": "in safe hands",
+        "source": "chapter 19",
+        "type": "adv",
+        "definition": "If someone or something is in safe hands, they are being taken care of by someone who is competent and reliable.",
+        "example": "Don't worry, the children are in safe hands with their grandmother."
+    },
+    {
+        "idiom": "play it safe",
+        "source": "chapter 19",
+        "definition": "If you play it safe, you avoid taking risks.",
+        "example": "I decided to play it safe and not invest all my money in one company."
+    },
+    {
+        "idiom": "put all your eggs in one basket",
+        "source": "chapter 19",
+        "definition": "If you put all your eggs in one basket, you risk losing everything by depending on only one plan or course of action.",
+        "example": "Don't put all your eggs in one basket; invest in a variety of things."
+    },
+    {
+        "idiom": "stick your neck out",
+        "source": "chapter 19",
+        "definition": "If you stick your neck out, you say something which other people are afraid to say, even though this may cause trouble for you.",
+        "example": "At the risk of sticking my neck out, I think this plan is a mistake."
+    },
+    {
+        "idiom": "take your life in your hands or take your life into your hands",
+        "source": "chapter 19",
+        "definition": "If you take your life in your hands or take your life into your hands when you do something, you take a lot of risks when you do it.",
+        "example": "You take your life in your hands when you cycle in the city centre."
+    },
+    {
+        "idiom": "playing with fire",
+        "source": "chapter 19",
+        "definition": "If you are playing with fire, you are behaving in a dangerous way that could cause you serious problems.",
+        "example": "He's playing with fire by driving so fast in these icy conditions."
+    },
+    {
+        "idiom": "the coast is clear",
+        "source": "chapter 19",
+        "definition": "If the coast is clear, there is no danger and you can do something without being seen or caught.",
+        "example": "The coast is clear, you can go now."
+    },
+    {
+        "idiom": "by the skin of your teeth",
+        "source": "chapter 19",
+        "type": "adv",
+        "definition": "If you do something by the skin of your teeth, you only just manage to do it.",
+        "example": "He escaped from the burning building by the skin of his teeth."
+    },
+    {
+        "idiom": "a close shave",
+        "source": "chapter 19",
+        "definition": "A close shave is a situation in which you only just avoid an accident or some other unpleasantness.",
+        "example": "That was a close shave - I nearly crashed the car."
+    },
+    {
+        "idiom": "to be on the safe side",
+        "source": "chapter 19",
+        "type": "adv",
+        "definition": "If you do something to be on the safe side, you take extra precautions so that nothing bad happens.",
+        "example": "I'll take an umbrella with me, just to be on the safe side."
+    },
+    {
+        "idiom": "the safest bet",
+        "source": "chapter 19",
+        "definition": "If you say something is the safest bet, you mean it is the option most likely to be successful or avoid problems.",
+        "example": "Taking a taxi is probably the safest bet at this time of night."
+    },
+    {
+        "idiom": "cost an arm and a leg",
+        "source": "chapter 20",
+        "definition": "If something costs an arm and a leg it costs a lot of money.",
+        "example": "It cost us an arm and a leg to get here."
+    },
+    {
+        "idiom": "be rolling in it or be rolling in money",
+        "source": "chapter 20",
+        "type": "verb",
+        "definition": "If you say that someone is rolling in it or rolling in money, you mean that they are very rich.",
+        "example": "Since he won the lottery, he's been rolling in it."
+    },
+    {
+        "idiom": "have deep pockets",
+        "source": "chapter 20",
+        "definition": "If someone has deep pockets, they have a lot of money.",
+        "example": "The company has deep pockets and can afford to invest in new technology."
+    },
+    {
+        "idiom": "a small fortune",
+        "type": "noun",
+        "source": "chapter 20",
+        "definition": "If something costs a small fortune, it costs a lot of money.",
+        "example": "That painting must have cost a small fortune."
+    },
+    {
+        "idiom": "in the red",
+        "source": "chapter 20",
+        "type": "adv",
+        "definition": "If a person or company is in the red, they owe more money than they have.",
+        "example": "The business has been in the red for the last three months."
+    },
+    {
+        "idiom": "feel the pinch",
+        "source": "chapter 20",
+        "definition": "If you feel the pinch, you start to have problems because you have less money than you used to.",
+        "example": "Many families are starting to feel the pinch as prices rise."
+    },
+    {
+        "idiom": "on a shoestring",
+        "source": "chapter 20",
+        "type": "adv",
+        "definition": "If you do something on a shoestring, you do it with very little money.",
+        "example": "We managed to travel around Europe on a shoestring."
+    },
+    {
+        "idiom": "tighten your belt",
+        "source": "chapter 20",
+        "definition": "If you tighten your belt you make an effort to spend less money.",
+        "example": "Clearly, if you are spending more than your income, you'll need to tighten your belt."
+    },
+    {
+        "idiom": "throw money down the drain or pour money down the drain or waste money",
+        "source": "chapter 20",
+        "type": "verb",
+        "definition": "If you say that someone /is throwing money down the drain, pouring money down the drain, or wasting money/, you mean that they are spending it on something that is useless and will not produce anything of value.",
+        "example": "Buying that old car was like throwing money down the drain."
+    },
+    {
+        "idiom": "there is no free lunch or there's no such thing as a free lunch",
+        "source": "chapter 20",
+        "definition": "If you say there is no free lunch or there's no such thing as a free lunch, you mean that you cannot get something you want without having to work for it or pay for it.",
+        "example": "There is no free lunch. You won't get anything you don't sweat and struggle for."
+    },
+    {
+        "idiom": "be breathing down someone's neck",
+        "source": "chapter 21",
+        "type": "verb",
+        "definition": "If someone is breathing down your neck they are closely watching and checking everything that you do.",
+        "example": "Most farmers have bank managers breathing down their necks, so have to give an economic reason for."
+    },
+    {
+        "idiom": "go over someone's head",
+        "source": "chapter 21",
+        "definition": "If you go over someone's head, you ignore the person who is directly in charge and deal with someone in a more senior position.",
+        "example": "If you won't allow it I shall simply go over your **head** and speak to your manager."
+    },
+    {
+        "idiom": "have someone eating out of the palm of your hand",
+        "source": "chapter 21",
+        "definition": "If you have someone eating out of the palm of your hand, they do everything you want them to because they admire you so much.",
+        "example": "He is a very clever lawyer, famous for always having the jury eating out of the palm of his **hand**."
+    },
+    {
+        "idiom": "twist someone around your little finger or wrap someone around your little finger",
+        "source": "chapter 21",
+        "definition": "If you can twist someone around your little finger or wrap them around your little finger, you can persuade them to do anything you want.",
+        "example": "She's always been able to wrap her grandfather around her little **finger**."
+    },
+    {
+        "idiom": "put your foot down",
+        "source": "chapter 21",
+        "definition": "If you put your foot down, you use your authority to stop something that you do not approve of.",
+        "example": "I wish the teacher would put her **foot** down and stop the children chatting so much."
+    },
+    {
+        "idiom": "get out of hand",
+        "source": "chapter 21",
+        "definition": "If a situation gets out of hand, it becomes impossible to control.",
+        "example": "The company is losing money fast and the situation is getting out of **hand**."
+    },
+    {
+        "idiom": "twist someone's arm",
+        "source": "chapter 21",
+        "definition": "If you twist someone's arm, you persuade them to do something that they did not want to do.",
+        "example": "If you twist his **arm** hard enough he'll probably see that you're right."
+    },
+    {
+        "idiom": "wind someone round your little finger",
+        "source": "chapter 21",
+        "definition": "If you can wind someone round your little finger, you can persuade them to do anything you want.",
+        "example": "That child will try to wind you round his **finger** if he possibly can."
+    },
+    {
+        "idiom": "pass the buck",
+        "source": "chapter 21",
+        "definition": "If you pass the buck, you refuse to accept responsibility for something and try to blame someone else.",
+        "example": "Many parents are tempted to **pass the buck** to schools and other organizations for teaching their children about moral issues."
+    },
+    {
+        "idiom": "get on top of something",
+        "source": "chapter 21",
+        "definition": "If you get on top of a problem or a difficult situation, you manage to control it.",
+        "example": "We've had some serious problems but we think we're **getting on top of them** now."
+    },
+    {
+        "idiom": "call the shots",
+        "source": "chapter 21",
+        "definition": "If you are the person who calls the shots, you are the one who makes the important decisions in a situation.",
+        "example": "He likes to be in control of everything - he's always the one who **calls the shots**."
+    },
+    {
+        "idiom": "pull strings",
+        "source": "chapter 21",
+        "definition": "If you pull strings, you use your influence with important people to get an advantage for yourself or for someone else.",
+        "example": "She knows a lot of people in the theatre so she's usually able to **pull strings** to get the tickets she wants."
+    },
+    {
+        "idiom": "be a law unto yourself",
+        "source": "chapter 21",
+        "definition": "If you say that someone is a law unto themselves, you mean that they behave in their own way and do not follow rules or accepted customs.",
+        "example": "The editor of the newspaper has always been **a law unto himself**."
+    },
+    {
+        "idiom": "wear the pants or wear the trousers",
+        "source": "chapter 21",
+        "definition": "If you ask who wears the pants in a relationship, you want to know who is the dominant partner and makes most of the decisions.",
+        "example": "'Who **wears the pants** in your family?'."
+    },
+    {
+        "idiom": "a fine line between something",
+        "source": "chapter 22",
+        "definition": "If you say there is a fine line between two qualities or actions, you mean that they are very similar and it is easy to confuse them.",
+        "example": "There's a fine **line** between fact and fantasy in this TV programme."
+    },
+    {
+        "idiom": "overstep the mark or go too far",
+        "source": "chapter 22",
+        "definition": "If you overstep the mark or go too far, you behave in a way that other people find unacceptable.",
+        "example": "AM realized that this time he'd probably overstepped the **mark**."
+    },
+    {
+        "idiom": "be over the top",
+        "source": "chapter 22",
+        "definition": "If someone's behaviour is over the top, it is more extreme or exaggerated than is suitable for the situation.",
+        "example": "Perhaps I was a bit over the **top**, accusing you of being a traitor."
+    },
+    {
+        "idiom": "bend the rules or stretch the rules",
+        "source": "chapter 22",
+        "definition": "If you bend the rules or stretch the rules, you do something that is not usually allowed but which you think is acceptable in a particular situation.",
+        "example": "I asked if he's ever been tempted to bend the **rules** for a good cause."
+    },
+    {
+        "idiom": "off limits or out of bounds",
+        "source": "chapter 22",
+        "type": "adv",
+        "definition": "If a place is off limits or out of bounds, you are not allowed to go there.",
+        "example": "The site of the disaster is completely off **limits** to reporters."
+    },
+    {
+        "idiom": "draw the line",
+        "source": "chapter 22",
+        "definition": "If you draw the line at something, you say that you will definitely not allow it.",
+        "example": "The editor allowed the photos to be taken but drew the **line** at publishing them."
+    },
+    {
+        "idiom": "have your hands full",
+        "source": "chapter 22",
+        "definition": "If you have your hands full, you are very busy.",
+        "example": "When she's not writing her hands are **full** with her family."
+    },
+    {
+        "idiom": "your hands are tied",
+        "source": "chapter 22",
+        "definition": "If your hands are tied, you are prevented from doing something that you would like to do, usually because of rules or a difficult situation.",
+        "example": "The spokesman said that his hands were **tied** and he could not account for the delay."
+    },
+    {
+        "idiom": "dos and don'ts",
+        "source": "chapter 22",
+        "definition": "Dos and don'ts are rules about what you should and should not do in a particular situation.",
+        "example": "A poster on the kitchen wall shows all the important **dos and don'ts**."
+    },
+    {
+        "idiom": "step on someone's toes",
+        "source": "chapter 22",
+        "definition": "If you step on someone's toes, you offend them by getting involved in something that is their responsibility.",
+        "example": "I want to make some changes but with no budget - I'm afraid of treading on his **toes**."
+    },
+    {
+        "idiom": "carry a torch for someone",
+        "source": "chapter 23",
+        "definition": "If you carry a torch for someone, you are in love with them but they do not love you.",
+        "example": "I get the feeling she's still carrying a **torch** for her first boyfriend."
+    },
+    {
+        "idiom": "fall head over heels (in love)",
+        "source": "chapter 23",
+        "definition": "If you fall head over heels in love, you start to love someone very much.",
+        "example": "A friend of mine fell **head over heels in love** with a girl he met on holiday."
+    },
+    {
+        "idiom": "common-or-garden",
+        "source": "chapter 23",
+        "definition": "If you describe something as common-or-garden, you mean that it is ordinary and not special in any way.",
+        "example": "He has a **common-or-garden** teaching job but I think he's a genius."
+    },
+    {
+        "idiom": "have a soft spot for someone",
+        "source": "chapter 23",
+        "definition": "If you have a soft spot for someone, you like them very much.",
+        "example": "I've always **had a soft spot for** her."
+    },
+    {
+        "idiom": "an old flame",
+        "source": "chapter 23",
+        "definition": "An old flame is someone you used to be in love with.",
+        "example": "Apparently James is **an old flame** of Amanda's."
+    },
+    {
+        "idiom": "think the world of someone",
+        "source": "chapter 23",
+        "definition": "If you think the world of someone, you like and admire them very much.",
+        "example": "My piano teacher was a lovely woman and I **thought the world of her**."
+    },
+    {
+        "idiom": "no great shakes",
+        "source": "chapter 23",
+        "definition": "If you say that someone or something is no great shakes, you mean that they are not very good or impressive.",
+        "example": "He's very creative in the kitchen but **no great shakes** on the management side of the business."
+    },
+    {
+        "idiom": "head and shoulders above someone/something",
+        "source": "chapter 23",
+        "definition": "If someone or something is head and shoulders above other people or things, they are much better than them.",
+        "example": "His new girlfriend is **not a patch on** his last girlfriend."
+    },
+    {
+        "idiom": "not a patch on someone/something",
+        "source": "chapter 23",
+        "definition": "If someone or something is not a patch on another person or thing, they are much worse than them.",
+        "example": "There was one applicant who was **head and shoulders above** all the rest."
+    },
+    {
+        "idiom": "nothing to write home about or not much to write home about",
+        "source": "chapter 23",
+        "definition": "If you say that something is nothing to write home about or not much to write home about, you mean that it is not very exciting or special.",
+        "example": "My results are okay, but **nothing to write home about**."
+    },
+    {
+        "idiom": "look on the bright side",
+        "source": "chapter 24",
+        "definition": "If you tell someone to look on the bright side, you are encouraging them to think about the positive aspects of a bad situation.",
+        "example": "Look on the **bright side**. You still have a job."
+    },
+    {
+        "idiom": "be over the moon",
+        "source": "chapter 24",
+        "definition": "If you are over the moon, you are extremely pleased and happy.",
+        "example": "I'm **over the moon** about Rosie's news."
+    },
+    {
+        "idiom": "have a long face",
+        "source": "chapter 24",
+        "definition": "If someone has a long face, they look sad.",
+        "example": "Why have you got such a **long face**?."
+    },
+    {
+        "idiom": "get a kick out of something",
+        "source": "chapter 24",
+        "definition": "If you get a kick out of something, you find it very enjoyable.",
+        "example": "He always **gets a kick out of** being recognized in the street."
+    },
+    {
+        "idiom": "get on top of you",
+        "source": "chapter 24",
+        "definition": "If something gets on top of you, it makes you feel anxious and unable to cope.",
+        "example": "Don't let that dreary job **get on top of you**."
+    },
+    {
+        "idiom": "be down in the dumps",
+        "source": "chapter 24",
+        "definition": "If you are down in the dumps, you are feeling unhappy and depressed.",
+        "example": "He's been looking very **down in the dumps** lately."
+    },
+    {
+        "idiom": "make someone's day",
+        "source": "chapter 24",
+        "definition": "If something makes your day, it makes you feel very happy.",
+        "example": "Thanks for telling me that great news. It really **made my day**."
+    },
+    {
+        "idiom": "not a happy bunny",
+        "source": "chapter 24",
+        "definition": "If someone is not a happy bunny, they are not pleased about something.",
+        "example": "It was easy to see that Kari was **not a happy bunny**."
+    },
+    {
+        "idiom": "be full of beans",
+        "source": "chapter 24",
+        "definition": "If someone is full of beans, they have a lot of energy and enthusiasm.",
+        "example": "He left rather hurriedly but when he came back he was **full of beans**."
+    },
+    {
+        "idiom": "be on top of the world",
+        "source": "chapter 24",
+        "definition": "If you are on top of the world, you are feeling extremely happy.",
+        "example": "When she came back from that holiday she was **on top of the world**."
+    },
+    {
+        "idiom": "a shoulder to cry on",
+        "source": "chapter 24",
+        "definition": "If someone offers you a shoulder to cry on, they are offering to listen to your problems and give you sympathy.",
+        "example": "If you need **an arm to cry on**, you know where I am."
+    },
+    {
+        "idiom": "have a whale of a time",
+        "source": "chapter 24",
+        "definition": "If you have a whale of a time, you enjoy yourself very much.",
+        "example": "They're having a **whale of a time**."
+    },
+    {
+        "idiom": "alive and kicking",
+        "source": "chapter 25",
+        "definition": "If someone or something is alive and kicking they are still active or still exist.",
+        "example": "Romance is still **alive and kicking** for a couple who will be celebrating their 50th wedding anniversary this week."
+    },
+    {
+        "idiom": "drop like flies",
+        "source": "chapter 25",
+        "definition": "If people drop like flies, a large number of them become ill or die at the same time.",
+        "example": "The members of the golf club were **dropping like flies** with food poisoning."
+    },
+    {
+        "idiom": "a clean bill of health",
+        "source": "chapter 25",
+        "definition": "If someone is given a clean bill of health, a doctor has examined them and declared that they are healthy.",
+        "example": "The manager was delighted to receive **a clean bill of health** for his team."
+    },
+    {
+        "idiom": "a wake-up call",
+        "source": "chapter 25",
+        "definition": "If an unpleasant event is a wake-up call, it makes you realize that you need to take action to change something.",
+        "example": "The heart attack was a **wake-up call** that scared him terribly."
+    },
+    {
+        "idiom": "under the weather",
+        "source": "chapter 25",
+        "definition": "If you are under the weather, you feel slightly ill.",
+        "example": "She was suffering from stress and was generally **under the weather**."
+    },
+    {
+        "idiom": "a shadow of your former self",
+        "source": "chapter 25",
+        "definition": "If someone is a shadow of their former self, they are much thinner or weaker than they used to be because they have been ill or unhappy.",
+        "example": "I was shocked to see that Bill had become **a shadow of his former self**."
+    },
+    {
+        "idiom": "knock someone for six",
+        "source": "chapter 25",
+        "definition": "If something knocks you for six, it shocks and upsets you very much.",
+        "example": "I suffered from a virus that **knocked me for six**."
+    },
+    {
+        "idiom": "be fighting for your life",
+        "source": "chapter 25",
+        "type": "verb",
+        "definition": "If someone is fighting for their life, they are very seriously ill or injured and might die.",
+        "example": "You might be **under the weather** but you should still turn up if you can."
+    },
+    {
+        "idiom": "the worse for wear",
+        "source": "chapter 25",
+        "definition": "If someone is the worse for wear, they look tired or in bad condition, usually because they have been working hard or have had too much alcohol.",
+        "example": "She looked a bit **the worse for wear** after all that travelling."
+    },
+    {
+        "idiom": "at death's door",
+        "source": "chapter 25",
+        "type": "adv",
+        "definition": "If someone is at death's door, they are so ill that they are likely to die.",
+        "example": "Apparently she was really ill - **at death's door**, in fact - but she's fine now."
+    },
+    {
+        "idiom": "kick the bucket",
+        "source": "chapter 25",
+        "definition": "If someone kicks the bucket, they die. [INFORMAL]",
+        "example": "He's terrified of **kicking the bucket** before he sees his grandchildren."
+    },
+    {
+        "idiom": "end it all",
+        "source": "chapter 25",
+        "definition": "If someone ends it all, they commit suicide.",
+        "example": "When his business went bankrupt, he felt like **ending it all**."
+    },
+    {
+        "idiom": "skin and bone or skin and bones",
+        "source": "chapter 25",
+        "definition": "If someone is skin and bone or skin and bones, they are extremely thin, usually because they are ill or have not had enough to eat.",
+        "example": "After his long illness, he was just **skin and bones**."
+    }
+]
+}

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Idioms Game</title>
+    <style>
+        /* Add CSS variables for theming */
+        :root {
+            --bg-color: white;
+            --text-color: black;
+            --button-bg: white;
+            --button-border: #ddd;
+            --button-hover: #f0f0f0;
+            --debug-bg: #f5f5f5;
+        }
+
+        /* Night mode colors */
+        [data-theme="dark"] {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --button-bg: #2d2d2d;
+            --button-border: #404040;
+            --button-hover: #3d3d3d;
+            --debug-bg: #2d2d2d;
+        }
+
+        /* Modify existing styles to use variables */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 1px solid var(--button-border);
+            background: var(--button-bg);
+            color: var(--text-color);
+            border-radius: 4px;
+        }
+        button:hover {
+            background: var(--button-hover);
+        }
+        #feedback {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        #next-btn {
+            display: none;
+            background: #4CAF50;
+            color: white;
+            border: none;
+        }
+        .debug-info {
+            display: none;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 20px;
+            padding: 10px;
+            background: var(--debug-bg);
+            border-radius: 4px;
+        }
+        .search-container {
+            display: none;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--bg-color);
+            padding: 10px;
+            border: 1px solid var(--button-border);
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .search-results {
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 10px;
+        }
+        .search-result-item {
+            padding: 5px;
+            cursor: pointer;
+        }
+        .search-result-item:hover {
+            background: var(--button-hover);
+        }
+        /* Add theme toggle button style */
+        #theme-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            opacity: 0.6;
+        }
+        /* Add these new styles */
+        .popup-card {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--bg-color);
+            border: 1px solid var(--button-border);
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 400px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 1000;
+        }
+
+        .popup-card h3 {
+            margin-top: 0;
+            color: var(--text-color);
+        }
+
+        .popup-card p {
+            margin: 10px 0;
+            color: var(--text-color);
+        }
+
+        .popup-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            color: var(--text-color);
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <button id="theme-toggle" style="margin-bottom: 20px">🌙</button>
+    <h1>Learn English Idioms</h1>
+    <div id="hidden-idiom" class="question"></div>
+    <div id="definition" class="debug-info"></div>
+    <div class="options" id="options"></div>
+    <div id="feedback"></div>
+    <button id="next-btn">Next Idiom</button>
+    <button id="debug-toggle" style="margin-top: 20px; opacity: 0.6">Toggle Debug Mode</button>
+    <div class="search-container" id="search-container">
+        <input type="text" id="search-input" placeholder="Search idiom...">
+        <div class="search-results" id="search-results"></div>
+    </div>
+    <button id="search-toggle" style="margin-top: 10px; opacity: 0.6; display: none">Search Idiom</button>
+
+    <div id="popup" class="popup-card">
+        <span class="popup-close" onclick="closePopup()">✕</span>
+        <h3 id="popup-idiom"></h3>
+        <p id="popup-definition"></p>
+        <p id="popup-example"></p>
+    </div>
+
+    <script>
+        let idioms = [];  // Will be populated from JSON file
+        let debugMode = false;
+        let searchVisible = false;
+        let isDarkMode = false;
+        toggleTheme();
+        
+        // Load idioms from JSON file
+        async function loadIdioms() {
+            try {
+                const response = await fetch('idioms.json');
+                const data = await response.json();
+                // Add type annotation only if not already present
+                idioms = data.idioms.map(idiom => ({
+                    ...idiom,
+                    type: idiom.type || determineType(idiom.definition, idiom.idiom) // Use existing type if available
+                }));
+                console.log(`Total of ${idioms.length} idioms loaded`);
+                setupSearch();
+                showQuestion();
+            } catch (error) {
+                console.error('Error loading idioms:', error);
+                document.getElementById('definition').textContent = 'Error loading idioms. Please check the console.';
+            }
+        }
+
+        function determineType(definition, idiom) {
+            // If it doesn't start with "If", it's a noun
+            if (idiom.toLowerCase().startsWith("be ")) {
+                return 'verb';
+            }
+            if (!definition.startsWith('If')) {
+                return 'noun';
+            }
+            
+            // Match pattern: "If" followed by multiple words (no commas) followed by "is"
+            const nounPattern = /^If\s+([^,]+?)\s+(is|are|as)\b/;
+            // If it starts with "If" but doesn't match the noun pattern, it's a verb
+            return nounPattern.test(definition) ? 'noun' : 'verb';
+        }
+
+        let currentIdiom;
+        let currentIndex;
+
+        function normalizeWord(word) {
+            if (word === "has") word = "have";
+            if (word === "are") word = "be";
+            if (word === "is") word = "be";
+            if (word === "doesn't") word = "not";
+
+            return word
+        }
+        function normalizeEqual(defW, idiomW) {
+            // Remove trailing 's' if present, but be careful with words that naturally end in 's'
+            
+            defW = normalizeWord(defW)
+            idiomW = normalizeWord(idiomW)
+
+            if (defW.replace(/s$/i, '') === idiomW) return true;
+            if (defW.replace(/es$/i, '') === idiomW) return true;
+            if (defW.replace(/ing$/i, '') === idiomW) return true;
+
+            return defW === idiomW; 
+        }
+
+        function hideIdiom(idiom, definition) {
+            // First check for explicit boundaries marked by slashes
+            const slashMatch = definition.match(/\/([^/]+)\//);
+            if (slashMatch) {
+                // Get the text between slashes and its position
+                const markedText = slashMatch[1];
+                const startIndex = slashMatch.index;
+                const endIndex = startIndex + slashMatch[0].length;
+                
+                // Reconstruct definition without slashes and with underscore replacement
+                const before = definition.substring(0, startIndex);
+                const after = definition.substring(endIndex);
+                return before + "________" + after;
+            }
+
+            // If no slash boundaries found, proceed with existing logic
+            const processedIdiom = idiom.replace(/\//g, ' or ').replace(/,/g, ' , ');
+            definition = definition.replace(/,/g, ' , ');
+            const idiomLower = processedIdiom.toLowerCase();
+            const definitionLower = definition.toLowerCase();
+            
+            // Try exact match first
+            const exactIndex = definitionLower.indexOf(idiomLower);
+            if (exactIndex >= 0) {
+                const before = definition.substring(0, exactIndex);
+                const after = definition.substring(exactIndex + idiom.length);
+                return before + "________" + after;
+            }
+ 
+            const idiomWords = idiomLower.split(/\s+/);
+            const definitionWords = definitionLower.split(/\s+/);
+            
+            let bestMatchStart = -1;
+            let bestMatchLength = 0;
+            let bestHolePosition = -1;
+            let bestHoleLength = -1;
+            let bestMatchScore = 0;
+            
+            // Modified word comparison in the matching loops
+            // for each word in defWords : 
+            // match it against each beginning position in idiomWords
+            // match performed greedily until stuck
+            // then consider skipping one word in idiomWords and match up the next word in defwords
+            // e.g. get something up and running vs get a piece of equipment or a system up and running
+
+            for (let defStart = 0; defStart < definitionWords.length - 1; defStart++) {
+                for (let idStart = 0; idStart < idiomWords.length; idStart++) {
+                    let matchLength = 0;
+                    while (
+                        defStart + matchLength < definitionWords.length &&
+                        idStart + matchLength < idiomWords.length &&
+                        normalizeEqual(definitionWords[defStart + matchLength], idiomWords[idStart + matchLength])
+                    ) {
+                        matchLength++;
+                    }
+                    console.log("match length = ", matchLength, " starting def = ", defStart, " id = ", idStart)
+                    
+                    if (matchLength > 0) {
+                        // Try holes in the definition text
+                        let defSkipAmt = 0
+                        const idSkipAmt = 1
+                        while (
+                            defStart + matchLength + defSkipAmt < definitionWords.length &&
+                            idStart + matchLength + idSkipAmt < idiomWords.length &&
+                            !normalizeEqual(definitionWords[defStart + matchLength + defSkipAmt], 
+                                          idiomWords[idStart + matchLength + idSkipAmt])
+                        ) {
+                            defSkipAmt++;
+                        }
+
+                        // upon first match, resume our greedy match
+                        let rematchLength = 0;
+                        while (
+                            defStart + matchLength + defSkipAmt + rematchLength < definitionWords.length &&
+                            idStart + matchLength + idSkipAmt + rematchLength < idiomWords.length &&
+                            normalizeEqual(definitionWords[defStart + matchLength + defSkipAmt + rematchLength], 
+                                          idiomWords[idStart + matchLength + idSkipAmt + rematchLength])
+                        ) {
+                            rematchLength++;
+                        }
+                        console.log("evaluting hole ", " defSkipAmt = ", defSkipAmt, " rematchLength = ", rematchLength)
+
+                        let totalMatch = matchLength + rematchLength;
+                        let bothSidesMatch = (matchLength > 0) && (rematchLength > 0);
+
+                        let matchScore = totalMatch - 0.5 - 0.05 * defSkipAmt;  // Penalty for having a hole
+                                
+                        if (bothSidesMatch && matchScore > bestMatchScore) {
+                            bestMatchScore = matchScore;
+                            bestMatchStart = defStart;
+                            bestMatchLength = matchLength + defSkipAmt + rematchLength; 
+                            bestHolePosition = matchLength;
+                            bestHoleLength = defSkipAmt;
+                            console.log("update: ", {bestMatchScore, bestMatchStart, bestMatchLength, bestHolePosition})
+                        }
+                    }
+                    
+                    if (matchLength > bestMatchLength) {
+                        bestMatchScore = matchLength;
+                        bestMatchStart = defStart;
+                        bestMatchLength = matchLength;
+                        bestHolePosition = -1;
+                        bestHoleLength = -1;
+                        console.log("update: ", {bestMatchScore, bestMatchStart, bestMatchLength, bestHolePosition})
+
+                    }
+                }
+            }
+            
+            if (bestMatchLength > 1 || (bestMatchLength === 1 && idiomWords.length === 1)) {
+                console.log("MATCH FOUND", definitionWords, idiomWords, bestMatchStart, bestMatchLength, bestHolePosition);
+                // Only use if we found a meaningful match
+                const result = [...definitionWords];
+                result.splice(
+                    bestMatchStart, 
+                    bestMatchLength, 
+                    "________"
+                );
+                return result.join(" ");
+            }
+            
+            //Handle common definition patterns
+            const commonStarts = ["if you ", "if someone ", "if something "];
+            if (idiomLower.startsWith("get ") || idiomLower.startsWith("have ") || idiomLower.startsWith("be ")) {
+                for (const start of commonStarts) {
+                    if (definitionLower.startsWith(start)) {
+                        const matchIndex = definitionLower.indexOf(idiomWords[0]);
+                        
+                        if (matchIndex >= 0) {
+                            const before = definition.substring(0, start.length);
+                            const after = definition.substring(matchIndex + idiomLower.length);
+                            return before + "(_______)" + after;
+                        }
+                    }
+                }
+            }
+            
+            
+            // Last resort: just add the blank at the end
+            return definition + " [Idiom: _______]";
+        }
+
+        function idiomTypeCompatible(keyType, guessType) {
+            // pair adv with adv preferred
+            // pair noun with noun / adv
+            switch (keyType) {
+                case "adv": return (guessType === keyType)
+                case "noun": return (guessType === "adv") || (guessType === "noun")
+                case "verb": return (guessType === keyType)
+                default: return true
+            }
+        }
+        function getRandomOptions(correctAnswer) {
+            const options = [correctAnswer];
+            const usedIndices = new Set([currentIndex]);
+            
+            // Get the type of the current idiom
+            const currentType = currentIdiom.type;
+            
+            // Filter idioms by type
+            const sameTypeIdioms = idioms.filter((idiom, index) => 
+                idiomTypeCompatible(currentType, idiom.type) && index !== currentIndex
+            );
+            
+            if (sameTypeIdioms.length < 3) {
+                console.warn(`Not enough ${currentType} type idioms for options. Using all types.`);
+                options.push(...sameTypeIdioms)
+                while (options.length < 4) {
+                    const randomIndex = Math.floor(Math.random() * idioms.length);
+                    if (!usedIndices.has(randomIndex)) {
+                        options.push(idioms[randomIndex].idiom);
+                        usedIndices.add(randomIndex);
+                    }
+                }
+            } else {
+                // Randomly select from same-type idioms
+                while (options.length < 4) {
+                    const randomIdiom = sameTypeIdioms[Math.floor(Math.random() * sameTypeIdioms.length)];
+                    if (!options.includes(randomIdiom.idiom)) {
+                        options.push(randomIdiom.idiom);
+                    }
+                }
+            }
+            
+            // Shuffle options
+            return options.sort(() => Math.random() - 0.5);
+        }
+
+        function showQuestion(forcedIndex = null) {
+            // Use forcedIndex if provided, otherwise randomize
+            currentIndex = forcedIndex !== null ? forcedIndex : Math.floor(Math.random() * idioms.length);
+            currentIdiom = idioms[currentIndex];
+            
+            const maskedDefinition = hideIdiom(currentIdiom.idiom, currentIdiom.definition);
+            document.getElementById('hidden-idiom').textContent = maskedDefinition;
+            
+            // Update debug info
+            const definitionElement = document.getElementById('definition');
+            definitionElement.textContent = `Original: ${currentIdiom.definition} [${currentIdiom.type}]`;
+            definitionElement.style.display = debugMode ? 'block' : 'none';
+            
+            const options = getRandomOptions(currentIdiom.idiom);
+            const optionsContainer = document.getElementById('options');
+            optionsContainer.innerHTML = '';
+            
+            options.forEach(option => {
+                const button = document.createElement('button');
+                if (debugMode) {
+                    // Find the full idiom object to get its type
+                    const idiomObj = idioms.find(i => i.idiom === option);
+                    button.textContent = `${option} [${idiomObj.type}]`;
+                } else {
+                    button.textContent = option;
+                }
+                button.onclick = () => {
+                    if (document.getElementById('next-btn').style.display === 'block') {
+                        // Answer already revealed, show popup
+                        showPopup(option);
+                    } else {
+                        // Still guessing, check answer
+                        checkAnswer(option);
+                    }
+                };
+                optionsContainer.appendChild(button);
+            });
+
+            document.getElementById('feedback').textContent = '';
+            document.getElementById('next-btn').style.display = 'none';
+        }
+
+        function checkAnswer(selectedAnswer) {
+            const feedback = document.getElementById('feedback');
+            const nextBtn = document.getElementById('next-btn');
+            
+            if (selectedAnswer === currentIdiom.idiom) {
+                feedback.textContent = `Correct! Example: ${currentIdiom.example}`;
+                feedback.style.color = 'green';
+            } else {
+                feedback.textContent = `Wrong! The correct answer is: ${currentIdiom.idiom}\nExample: ${currentIdiom.example}`;
+                feedback.style.color = 'red';
+            }
+            
+            // Don't disable buttons anymore, just style them differently
+            const buttons = document.querySelectorAll('.options button');
+            buttons.forEach(button => {
+                if (button.textContent === currentIdiom.idiom) {
+                    button.style.border = '2px solid #4CAF50';  // Highlight correct answer
+                }
+            });
+            
+            nextBtn.style.display = 'block';
+            
+            // Show popup for the selected answer immediately
+            //showPopup(selectedAnswer);
+        }
+
+        document.getElementById('next-btn').onclick = () => showQuestion(null);
+
+        // Add debug toggle functionality
+        document.getElementById('debug-toggle').onclick = () => {
+            debugMode = !debugMode;
+            document.getElementById('definition').style.display = debugMode ? 'block' : 'none';
+            document.getElementById('search-toggle').style.display = debugMode ? 'block' : 'none';
+            if (!debugMode) {
+                searchVisible = false;
+                document.getElementById('search-container').style.display = 'none';
+            }
+        };
+
+        // Add search functionality
+        function setupSearch() {
+            const searchContainer = document.getElementById('search-container');
+            const searchInput = document.getElementById('search-input');
+            const searchResults = document.getElementById('search-results');
+            const searchToggle = document.getElementById('search-toggle');
+
+            // Show/hide search toggle based on debug mode
+            searchToggle.style.display = debugMode ? 'block' : 'none';
+
+            searchToggle.onclick = () => {
+                searchVisible = !searchVisible;
+                searchContainer.style.display = searchVisible ? 'block' : 'none';
+                if (searchVisible) {
+                    searchInput.focus();
+                    searchInput.value = '';
+                    searchResults.innerHTML = '';
+                }
+            };
+
+            searchInput.oninput = () => {
+                const query = searchInput.value.toLowerCase();
+                const matches = idioms.filter(idiom => 
+                    idiom.idiom.toLowerCase().includes(query)
+                );
+
+                searchResults.innerHTML = matches
+                    .slice(0, 10) // Limit to first 10 matches
+                    .map(idiom => `
+                        <div class="search-result-item" onclick="selectIdiom(${idioms.indexOf(idiom)})">
+                            ${idiom.idiom} [${idiom.type}]
+                        </div>
+                    `)
+                    .join('');
+            };
+        }
+
+        function selectIdiom(index) {
+            searchVisible = false;
+            document.getElementById('search-container').style.display = 'none';
+            showQuestion(index);  // Pass the selected index
+        }
+
+        // Add theme toggle functionality at the start of your script
+        function toggleTheme() {
+            isDarkMode = !isDarkMode;
+            document.body.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
+            document.getElementById('theme-toggle').textContent = isDarkMode ? '☀️' : '🌙';
+        }
+
+        document.getElementById('theme-toggle').onclick = toggleTheme;
+
+        // Add these new functions
+        function showPopup(idiom) {
+            const idiomData = idioms.find(i => i.idiom === idiom);
+            if (!idiomData) return;
+
+            document.getElementById('popup-idiom').textContent = idiomData.idiom;
+            document.getElementById('popup-definition').textContent = idiomData.definition;
+            document.getElementById('popup-example').textContent = `Example: ${idiomData.example}`;
+            document.getElementById('popup').style.display = 'block';
+        }
+
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        // Add click outside to close popup
+        document.addEventListener('click', (e) => {
+            const popup = document.getElementById('popup');
+            const isClickInside = popup.contains(e.target);
+            const isOptionButton = e.target.closest('.options button');
+            
+            if (!isClickInside && !isOptionButton && popup.style.display === 'block') {
+                closePopup();
+            }
+        });
+
+        // Instead of calling showQuestion() directly, call loadIdioms()
+        loadIdioms();
+    </script>
+</body>
+</html> 
